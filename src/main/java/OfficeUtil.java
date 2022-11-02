@@ -20,7 +20,7 @@ public class OfficeUtil {
      * 根据指定的参数值、模板，生成 word 文档
      *
      * @param param    需要替换的变量
-     * @param template 模板
+     * @param template 模板1
      */
     public static CustomXWPFDocument generateWord(Map<String, Object> param, String template) {
         // String absolutePath = new File(template).getAbsolutePath();

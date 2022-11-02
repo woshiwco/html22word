@@ -19,7 +19,7 @@ public class FFMpeg {
             e.printStackTrace();
         }
     }
-    // 截取图片，12224
+    // 截取图片，122245
     public static void fetchPic(File originVideo, String targetPath, Integer ignoreFrame, Integer width) throws Exception {
         ignoreFrame = ignoreFrame == null ? 5 : ignoreFrame;
         width = width == null ? 640 : width;
